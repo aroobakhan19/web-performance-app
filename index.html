@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Loading Example</title>
+    <link rel="stylesheet" href="styles.min.css"> <!-- Link to the external minimized CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Lazy Loading Images</h1>
+    </header>
+    <div class="container">
+        <h2>Scroll down to load images</h2>
+        <p>These images will load as you scroll down the page.</p>
+
+        <!-- Lazy loading images -->
+        <img src="pexels-alexquezada-26221042.jpg" alt="Image 1" loading="lazy">
+        <img src="pexels-funda-izgi-236637469-20657458.jpg" alt="Image 2" loading="lazy">
+        <img src="pexels-louai-benzaoui-435435842-18970638.jpg" alt="Image 3" loading="lazy">
+        <img src="pexels-thanh-luu-29104820-23698643.jpg" alt="Image 4" loading="lazy">
+        <img src="pexels-viktor-lowen-2785851-18795422.jpg" alt="Image 5" loading="lazy">
+    </div>
+
+    <script>
+        // Simple script to track TTFB
+        window.addEventListe
